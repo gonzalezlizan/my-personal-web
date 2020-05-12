@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -52,7 +52,7 @@ function App() {
 
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div class="w-100">
-          <h1 class="mb-0">Alberto
+          <h1 class="mb-0">Alberto&nbsp;
             <span class="text-primary">González</span>
           </h1>
           <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
