@@ -25,6 +25,6 @@ export class AppComponent implements OnInit {
           }
         }
       });
-    })(jQuery); // End of use strict
+    })(jQuery);
   }
 }
