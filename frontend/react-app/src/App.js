@@ -8,7 +8,10 @@ import {
   faTwitter,
   faLinkedinIn
 } from '@fortawesome/free-brands-svg-icons';
-import { faCheck, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { 
+  faCheck, 
+  faTrophy 
+} from "@fortawesome/free-solid-svg-icons";
 
 import ProfileImage from './assets/img/profile.jpg';
 import jQuery from "jquery";
@@ -266,29 +269,29 @@ class App extends Component{
               <h2 class="mb-5">Awards &amp; Certifications</h2>
               <ul class="fa-ul mb-0">
                 <li>
-                <FontAwesomeIcon icon={faTrophy} class="fa-trophy text-warning" />
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   Google Analytics Certified Developer</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   Mobile Web Specialist - Google Certification</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   1<sup>st</sup>
                   Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   1<sup>st</sup>
                   Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   2<sup>nd</sup>
                   Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   1<sup>st</sup>
                   Place - James Buchanan High School - Hackathon 2006</li>
                 <li>
-                  <i class="fa-li fa fa-trophy text-warning"></i>
+                  <FontAwesomeIcon icon={faTrophy} class="text-warning" />
                   3<sup>rd</sup>
                   Place - James Buchanan High School - Hackathon 2005</li>
               </ul>
